@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Clicker</title>
+</head>
+<body background="tree-1716991_1280.png" style="height: 100vh; background-size:
+ contain; background-repeat: no-repeat; background-position: center" onclick="click1()">
+<center>
+    <div style="color: #dd3800; font-size: 60px;" id="score">
+        0
+    </div>
+</center>
+<audio src="Sound_02797%20(mp3cut.net)%20(1).mp3" id="0"></audio>
+</body>
+<script>
+    i=0
+    function click1() {
+        i=i+1
+        document.getElementById("score").innerHTML=i
+        document.getElementById("0").play()
+    }
+</script>
+</html>
